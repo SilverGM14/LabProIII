@@ -124,6 +124,7 @@
                                 ?>
                             </div>
                         <?php
+                            header("Content-Type: text/html; charset=UTF-8");
                             function mostrarInfo($etiqueta){
                                 switch($etiqueta){
                                     case '1':
