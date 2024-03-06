@@ -1,0 +1,101 @@
+.colorFondo {
+    background-image: linear-gradient(rgb(56, 56, 221), white);
+}
+
+h1 {
+    font-size: 65px;
+    text-align: center;
+    font-family: Lucida Sans;
+    padding: 10px;
+    margin: 0;
+    color: rgb(83, 81, 81);
+}
+
+h3 {
+    font-size: 25px;
+    text-align: center;
+    margin-top: -5px;
+    font-family: Lucida Sans;
+    color: rgb(83, 81, 81);
+}
+
+header {
+    border-radius: 15px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center; 
+}
+
+nav ul li {
+    display: inline-block;
+    position: relative;
+    padding: 10px;
+    margin-right: 10px; 
+}
+
+.despliege {
+    display: none;
+    position: absolute;
+    top: 100%; 
+    left: 0;
+    min-width: 120px;
+    z-index: 1;
+    background-image: linear-gradient(rgb(56, 56, 221), white);
+    font-style: italic;
+}
+
+.despliege a {
+    color: black;
+    padding: 10px 15px;
+    display: block;
+    text-decoration: none; 
+}
+
+.despliege a:hover {
+    background-color: rgba(0, 0, 0, 0.1); 
+}
+
+li:hover .despliege {
+    display: block; 
+}
+
+li:hover {
+    background-color: rgb(56, 56, 221);
+    border-radius: 10px;
+    color: white;
+}
+.contenido-central {
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 50px;
+}
+
+.seccion {
+    padding: 50px;
+    background-color: #f2f2f2;
+    text-align: center;
+}
+
+.seccion h2 {
+    color: #333;
+}
+
+.seccion p {
+    color: #555;
+    font-size: 18px;
+}
