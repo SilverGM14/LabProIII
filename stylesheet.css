@@ -10,7 +10,7 @@
 }
 .bodybackground{
     background-color:aliceblue;
-    background-image:linear-gradient(to left, rgb(45, 77, 255),white);
+    background-image:linear-gradient(to left, rgb(45, 77, 255),green);
     border-radius:5px;
 }
 .headerbackground{
